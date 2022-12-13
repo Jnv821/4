@@ -27,11 +27,15 @@ window.onload = function() {
     if (generatedRandomSuit % 2 === 0) {
       suitBottom.classList.add("black");
       suitTop.classList.add("black");
+      cardValue.classList.add("black");
     } else {
       suitBottom.classList.add("red");
       suitTop.classList.add("red");
+      cardValue.classList.add("red");
+
       suitBottom.classList.remove("black");
       suitTop.classList.remove("black");
+      cardValue.classList.remove("black");
     }
   }
 
